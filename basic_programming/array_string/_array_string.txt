@@ -1,0 +1,21 @@
+- Ưu điểm
+
+    +> Truy xuất phần tử mảng ngẩu nhiên, dựa vào chỉ số (index) của mảng.
+    +> Tối ưu code (chương trình chúng ta sẽ ít code hơn).
+    +> Dễ dàng duyệt qua từng phần tử mảng.
+    +> Dễ dàng thao tác dữ liệu.
+    +> Dễ dàng sắp xếp dữ liệu.
+
+- Nhược điểm
+
+    +> Mảng có độ dài cố định.
+    +> Các ô nhớ nằm liền kề nhau
+
+- Mảng số:
+
+    - Lưu trữ có ô nhớ cạnh nhau
+
+- Mảng kí tự:   
+
+    - Kí tự thứ i chính là phần tử của mảng thứ i
+    - Kết thúc bằng \0

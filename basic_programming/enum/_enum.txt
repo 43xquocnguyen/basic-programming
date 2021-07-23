@@ -1,0 +1,8 @@
+- Enum là một kiểu cấu trúc liệt kê. Thường sẽ liệt kê các hằng số hoặc list giá trị không thay đổi
+
+    enum <enum_name> {
+        <value1>,
+        <value2>,
+        ...
+        <value_n>,
+    }

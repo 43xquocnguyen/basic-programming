@@ -1,0 +1,31 @@
+- Loop:
+
+    +> for: Biết trước số lần lặp
+
+        for (variable_initialization; condition; variable_update)
+        {
+            statements;
+        }
+
+    +> while: Không biết cụ thể số lần lặp
+
+        while (expression)
+        {
+            statements;
+        }
+
+
+    +> do-while: Làm trước mới lặp
+
+        do
+        {
+            statements;
+        } while (expression);
+
+    +> break & continue & goto
+
+        +> break: thoát ra khỏi vòng lặp
+
+        +> continue: tiếp tục lần lặp kế tiếp
+
+        +> goto: nhảy tới một lable đặt ra sẵn

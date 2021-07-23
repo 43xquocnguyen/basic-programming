@@ -1,0 +1,16 @@
+- Hàm seekg(x, y) :
+   + x: số byte cần di chuyển
+   + y = 0 : đầu file
+   + y = 1 : VT hiện tại
+   + y = 2 : Cuối file 
+
+- mode (): 
+   + ios_base::in // đọc
+   + ios_base::out // ghi, tạo mới nếu không có
+   + ios_base::app // ghi thêm dữ liệu vào cuối file
+   + ios_base::ate // mở và đặt con trỏ ở cuối
+   + ios_base::trunc // nếu file có sẵn thì dl của nó sẽ bị mất
+   + ios_base::nocreate // mở 1 file, bắt buộc tồn tại
+   + ios_base::noreplace // mở 1 file, bắt buộc chưa tồn tại
+   + ios_base::binary // mở file nhị phân
+   + ios_base::text // mở ở chế độ văn bản

@@ -1,0 +1,66 @@
+- Input & Output (Standard Input Output)
+
+    - cout << (library: iostream & namespace std)
+    - cin >> (library: iostream & namespace std)
+
+- Variable:
+    
+    - Biến (variable) là một đối tượng chiếm giữ một vùng nhớ xác định.
+    - Biến (variable) lưu các giá trị.
+
+        <data_type> <name_variable>;
+
+- Constant:
+
+    - Hằng (constant) biến có một giá trị hoặc biến không thể thay đổi trong chương trình.
+
+        const <data_type> <name_variable>;
+
+- Operator:
+
+    - Toán tử toán học: +, -, *, /, %, ++, --
+    - Toán tử gán: =, +=, -=, *=, /=, %=
+    - Toán tử sánh: ==, >, <, >=, <=, !=
+    - Toán tử logic: &&, ||, !=
+    - Toán tử bit: &, |, ^, ~, !
+    ...
+
+- Data Type:
+
+    - Primary Type:
+        +>  Boolean     	        bool
+        +>  Ký tự	                char
+        +>  Số nguyên	            int
+        +>  Số thực	                float
+        +>  Số thực dạng Double	    double
+        +>  Kiểu không có giá trị	void
+        +>  Kiểu Wide character	    wchar_t
+
+    - Modifier:
+        +>  signed (kiểu có dấu)
+        +>  unsigned (kiểu không có dấu)
+
+    - All Primary Type C++:
+
+        Kiểu dữ liệu	  |   Độ rộng bit   |       Dãy giá trị
+    --------------------------------------------------------------------------------
+    char	              |     1 byte	    |       -127 tới 127 hoặc 0 tới 255
+    unsigned char	      |     1 byte	    |       0 tới 255
+    signed char           |     1 byte	    |       -127 tới 127
+    int	                  |     4 byte	    |       -2147483648 tới 2147483647
+    unsigned int	      |     4 byte	    |       0 tới 4294967295
+    signed int	          |     4 byte	    |       -2147483648 tới 2147483647
+    short int	          |     2 byte	    |       -32768 tới 32767
+    unsigned short int	  |     Range	    |       0 tới 65,535
+    signed short int	  |     Range	    |       -32768 tới 32767
+    long int	          |     4 byte	    |       -2,147,483,647 tới 2,147,483,647
+    signed long int	      |     4 byte	    |       Tương tự như long int
+    unsigned long int	  |     4 byte	    |       0 tới 4,294,967,295
+    float	              |     4 byte	    |       +/- 3.4e +/- 38 (~7 chữ số)
+    double	              |     8 byte	    |       +/- 1.7e +/- 308 (~15 chữ số)
+    long double	          |     8 byte	    |       +/- 1.7e +/- 308 (~15 chữ số)
+    wchar_t	2 hoặc        |     4 byte	    |       1 wide character
+
+    - Keyword:
+        + typedef <nameTypeLast> <nameNewType>;
+

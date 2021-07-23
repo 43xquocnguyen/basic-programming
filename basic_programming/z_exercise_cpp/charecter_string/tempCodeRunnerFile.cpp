@@ -1,0 +1,2 @@
+
+    cout << strchr(s, c);

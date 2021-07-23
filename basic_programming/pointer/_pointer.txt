@@ -1,0 +1,12 @@
+- Pointer (con trỏ) là một biến mà giá trị của nó là địa chỉ của một biến khác.
+
+    <data_type> *<variable_name>;
+
+- NULL là con trỏ không xác định địa chỉ
+
+- Toán tử với con trỏ:
+
+    +> &: Địa chỉ con trỏ
+    +> *: Giá trị vùng nhớ con trỏ trỏ đến
+    +> ++: Tăng 1 đơn vị con trỏ
+    +> --: Giảm 1 đơn vị con trỏ

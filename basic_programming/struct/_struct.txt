@@ -1,0 +1,8 @@
+- Struct là một kiểu dữ liệu gồm tập hợp các kiểu dữ liệu khác mục đích để mô tả đối tượng nào đó
+
+    struct <struct_name> {
+        <data_type> <name_variable1>;
+        <data_type> <name_variable2>;
+        ...
+        <data_type> <name_variable_n>;
+    }

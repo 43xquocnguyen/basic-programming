@@ -1,0 +1,42 @@
+- If else:
+
+    if (condition)
+    {
+        // do A
+    }
+    else if (another_condition)
+    {
+        // do B
+    }
+    else if (one_more_condition)
+    {
+        // do C
+    }
+    else
+    {
+        // do D
+    }
+
+- Toán tử 3 ngôi
+
+    condition ? true_value : false_value;
+
+- Switch case:
+
+    switch(expression) 
+    {
+        case constant-expression: 
+        {
+            // do A
+            break; 
+        }
+        case constant-expression:
+        {
+            // do B
+            break; 
+        }
+        default: 
+        {
+            // do C
+        }
+    }
