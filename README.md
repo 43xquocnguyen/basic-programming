@@ -1,5 +1,6 @@
-#\ ゜o゜)ノ Hi there! This is my DSA course:
-	* Theory
-	* Assignment
-	* Seminar
-	* Exam
+\ ゜o゜)ノ Hi there! This is my DSA course:
+-----------------------------------------------
+ * Theory
+ * Assignment
+ * Seminar
+ * Exam
