@@ -1,4 +1,4 @@
-\ ゜o゜)ノ Hi there! This is my DSA course:
+\ ゜o゜)ノ Hi there! This is my Introdution Programming course:
 -----------------------------------------------
  * Theory
  * Assignment
